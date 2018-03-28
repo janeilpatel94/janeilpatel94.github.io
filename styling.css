@@ -1,6 +1,6 @@
 body {
 	padding: 10px;
-	background-color: #753232;
+	background-color: #000;/*#753232*/
     color: #fff;
 }
 
@@ -8,6 +8,11 @@ figure {
     text-align: center;
 }
 
+li{
+    /*color: #000;*/
+    color: #753232;
+    font-size: 20px;
+}
 
 .navbar-default {
     background-color:#2b2828;
@@ -36,4 +41,12 @@ figure {
 h1
 {
 	color: #080808;
+}
+
+.first{
+    background-color: #000;
+}
+
+.second{
+    background-color: #753232;
 }
