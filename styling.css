@@ -1,17 +1,42 @@
 body {
 	padding: 10px;
-	background-color: #000;/*#753232*/
-    color: #fff;
+	background-color: #4e0f0f;/*#753232  #4e0f0f       #828282*/
+    color: #867866; /*#867866*/
+}
+.tabs li {
+    color: #222;
+    display: inline-block;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+.tabs .current {
+    background: #ededed;
+    color: #000;
+}
+
+.tab-content {
+    display: none;
+    background: #ededed;
+    padding: 15px;
+}
+
+.tab-content.current {
+    display: inherit;
 }
 
 figure {
-    text-align: center;
+    text-align: left;
 }
 
 li{
     /*color: #000;*/
     color: #753232;
     font-size: 20px;
+}
+
+.resume{
+    color: #867866; /*#867866*/
 }
 
 .navbar-default {
@@ -44,9 +69,10 @@ h1
 }
 
 .first{
-    background-color: #000;
+    background-color: #222;
+    text-align: center;
 }
 
 .second{
-    background-color: #753232;
+    background-color: #4e0f0f; /*#4e0f0f*/
 }
