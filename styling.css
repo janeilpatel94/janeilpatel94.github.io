@@ -3,6 +3,11 @@ body {
 	background-color: #4e0f0f;/*#753232  #4e0f0f       #828282*/
     color: #867866; /*#867866*/
 }
+
+.right{
+    float:right;
+}
+
 .tabs li {
     color: #222;
     display: inline-block;
